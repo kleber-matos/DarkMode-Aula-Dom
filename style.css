@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 20vh;
+}
+header button {
+  border: none;
+  margin: 5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main img,
+main p {
+  width: 500px;
+  margin: 15px;
+}/*# sourceMappingURL=style.css.map */
